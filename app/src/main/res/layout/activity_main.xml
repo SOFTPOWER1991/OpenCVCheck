@@ -13,7 +13,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_marginTop="10dp"
-        android:text="两张图片相似度" />
+        android:text="@string/check_two_pic_simi" />
 
     <Button
         android:id="@+id/btn_camera"
@@ -21,7 +21,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/btn_similarity"
         android:layout_marginTop="10dp"
-        android:text="OpenCV相机预览" />
+        android:text="@string/opencv_camera_priview" />
 
     <Button
         android:id="@+id/btn_face_detection"
@@ -29,7 +29,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/btn_camera"
         android:layout_marginTop="10dp"
-        android:text="人脸识别==>安卓API" />
+        android:text="@string/fd_by_android_api" />
 
     <Button
         android:id="@+id/btn_fd_opencv"
@@ -37,7 +37,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/btn_face_detection"
         android:layout_marginTop="10dp"
-        android:text="相机预览人脸识别==>OpenCV" />
+        android:text="@string/opencv_camera_fd" />
 
     <Button
         android:id="@+id/btn_fd_pic"
@@ -45,7 +45,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/btn_fd_opencv"
         android:layout_marginTop="10dp"
-        android:text="静态图片人脸识别==>OpenCV" />
+        android:text="@string/opencv_static_pic_fd" />
 
     <Button
         android:id="@+id/btn_fd_sc"
@@ -53,7 +53,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/btn_fd_pic"
         android:layout_marginTop="10dp"
-        android:text="人脸相似度检测==>OpenCV" />
+        android:text="@string/opencv_fd_simi" />
 
 
 </RelativeLayout>

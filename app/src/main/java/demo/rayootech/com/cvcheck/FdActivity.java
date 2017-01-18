@@ -2,11 +2,14 @@ package demo.rayootech.com.cvcheck;
 
 import android.app.Activity;
 import android.content.Context;
+import android.hardware.Camera;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
 import android.view.WindowManager;
+import android.widget.Button;
 
 import org.opencv.android.BaseLoaderCallback;
 import org.opencv.android.CameraBridgeViewBase;
@@ -53,6 +56,10 @@ public class FdActivity extends Activity implements CvCameraViewListener2 {
     private int mAbsoluteFaceSize = 0;
 
     private CameraBridgeViewBase mOpenCvCameraView;
+
+    private Button btnChangeCamera;
+
+    private int count = 0;
 
     private BaseLoaderCallback mLoaderCallback = new BaseLoaderCallback(this) {
         @Override
@@ -128,6 +135,21 @@ public class FdActivity extends Activity implements CvCameraViewListener2 {
         mOpenCvCameraView = (CameraBridgeViewBase) findViewById(R.id.fd_activity_surface_view);
         mOpenCvCameraView.setVisibility(CameraBridgeViewBase.VISIBLE);
         mOpenCvCameraView.setCvCameraViewListener(this);
+        mOpenCvCameraView.setCameraIndex(0);
+
+        btnChangeCamera = (Button) findViewById(R.id.btn_change_camera);
+        btnChangeCamera.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                // 摄像头总数
+                int numberOfCameras = Camera.getNumberOfCameras();
+                int index = ++count % numberOfCameras;
+                mOpenCvCameraView.disableView();
+                mOpenCvCameraView.setCameraIndex(index);
+                mOpenCvCameraView.enableView();
+
+            }
+        });
     }
 
     @Override

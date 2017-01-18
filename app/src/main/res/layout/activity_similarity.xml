@@ -39,6 +39,6 @@
         android:layout_height="40dp"
         android:layout_above="@id/btn_compare"
         android:gravity="center"
-        android:text="xiangsi"
+        android:text="相似度"
         android:textSize="22sp" />
 </RelativeLayout>

@@ -59,7 +59,7 @@ public class SimilarityActivity extends AppCompatActivity {
         textView = (TextView) findViewById(R.id.tv);
 
         mBitmap1 = BitmapFactory.decodeResource(getResources(), R.mipmap.pic1);
-        mBitmap2 = BitmapFactory.decodeResource(getResources(), R.mipmap.pic1);
+        mBitmap2 = BitmapFactory.decodeResource(getResources(), R.mipmap.pic2);
 
 
         btnCompare = (Button) findViewById(R.id.btn_compare);
@@ -70,7 +70,7 @@ public class SimilarityActivity extends AppCompatActivity {
 
         img2 = (ImageView) findViewById(R.id.img2);
 
-        img2.setImageBitmap(mBitmap1);
+        img2.setImageBitmap(mBitmap2);
 
 
         btnCompare.setOnClickListener(new View.OnClickListener() {
@@ -82,7 +82,7 @@ public class SimilarityActivity extends AppCompatActivity {
                 Mat mat11 = new Mat();
                 Mat mat22 = new Mat();
                 Utils.bitmapToMat(mBitmap1, mat1);
-                Utils.bitmapToMat(mBitmap1, mat2);
+                Utils.bitmapToMat(mBitmap2, mat2);
 
                 Imgproc.cvtColor(mat1, mat11, Imgproc.COLOR_BGR2GRAY);
                 Imgproc.cvtColor(mat2, mat22, Imgproc.COLOR_BGR2GRAY);

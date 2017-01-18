@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">CVCheck</string>
+    <string name="check_two_pic_simi">两张图片相似度</string>
+    <string name="opencv_camera_priview">OpenCV相机预览</string>
+    <string name="fd_by_android_api">人脸识别==>安卓API</string>
+    <string name="opencv_camera_fd">相机预览人脸识别==>OpenCV</string>
+    <string name="opencv_static_pic_fd">静态图片人脸识别==>OpenCV</string>
+    <string name="opencv_fd_simi">人脸相似度检测==>OpenCV</string>
 </resources>
