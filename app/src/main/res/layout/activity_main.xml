@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="demo.rayootech.com.cvcheck.MainActivity">
+
+
+    <Button
+        android:id="@+id/btn_similarity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="10dp"
+        android:text="两张图片相似度" />
+
+    <Button
+        android:id="@+id/btn_camera"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_similarity"
+        android:layout_marginTop="10dp"
+        android:text="OpenCV相机预览" />
+
+    <Button
+        android:id="@+id/btn_face_detection"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_camera"
+        android:layout_marginTop="10dp"
+        android:text="人脸识别==>安卓API" />
+
+    <Button
+        android:id="@+id/btn_fd_opencv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_face_detection"
+        android:layout_marginTop="10dp"
+        android:text="相机预览人脸识别==>OpenCV" />
+
+    <Button
+        android:id="@+id/btn_fd_pic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_fd_opencv"
+        android:layout_marginTop="10dp"
+        android:text="静态图片人脸识别==>OpenCV" />
+
+    <Button
+        android:id="@+id/btn_fd_sc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_fd_pic"
+        android:layout_marginTop="10dp"
+        android:text="人脸相似度检测==>OpenCV" />
+
+
+</RelativeLayout>

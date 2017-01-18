@@ -1,0 +1,38 @@
+
+{
+	"buildFiles" : [ "/Users/zhanggeng/CVCheck/app/src/main/cpp/CMakeLists.txt" ],
+	"cleanCommands" : 
+	[
+		"/Users/zhanggeng/android_tools/android_studio/android-sdk-macosx/cmake/3.6.3155560/bin/cmake --build /Users/zhanggeng/CVCheck/app/.externalNativeBuild/cmake/debug/mips64 --target clean"
+	],
+	"cppFileExtensions" : [ "cpp" ],
+	"libraries" : 
+	{
+		"native-fd-Debug-mips64" : 
+		{
+			"abi" : "mips64",
+			"artifactName" : "native-fd",
+			"buildCommand" : "/Users/zhanggeng/android_tools/android_studio/android-sdk-macosx/cmake/3.6.3155560/bin/cmake --build /Users/zhanggeng/CVCheck/app/.externalNativeBuild/cmake/debug/mips64 --target native-fd",
+			"buildType" : "debug",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  -target mips64el-none-linux-android -gcc-toolchain /Users/zhanggeng/android_tools/android_studio/android-sdk-macosx/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/zhanggeng/android_tools/android_studio/android-sdk-macosx/ndk-bundle/platforms/android-21/arch-mips64  -Dnative_fd_EXPORTS -I/Users/zhanggeng/CVCheck/app/src/main/cpp/src/main/cpp/include -isystem /Users/zhanggeng/android_tools/android_studio/android-sdk-macosx/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/zhanggeng/android_tools/android_studio/android-sdk-macosx/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/mips64/include -isystem /Users/zhanggeng/android_tools/android_studio/android-sdk-macosx/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti  -O0 -fno-limit-debug-info -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "/Users/zhanggeng/CVCheck/app/src/main/cpp/DetectionBasedTracker_jni.cpp",
+					"workingDirectory" : "/Users/zhanggeng/CVCheck/app/.externalNativeBuild/cmake/debug/mips64"
+				}
+			],
+			"output" : "/Users/zhanggeng/CVCheck/app/build/intermediates/cmake/debug/obj/mips64/libnative-fd.so",
+			"toolchain" : "1272465567748762461"
+		}
+	},
+	"toolchains" : 
+	{
+		"1272465567748762461" : 
+		{
+			"cCompilerExecutable" : "/Users/zhanggeng/android_tools/android_studio/android-sdk-macosx/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang",
+			"cppCompilerExecutable" : "/Users/zhanggeng/android_tools/android_studio/android-sdk-macosx/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++"
+		}
+	}
+}

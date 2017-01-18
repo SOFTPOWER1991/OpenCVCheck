@@ -1,0 +1,28 @@
+
+{
+	"buildFiles" : [ "/Users/zhanggeng/CVCheck/app/src/main/cpp/CMakeLists.txt" ],
+	"cleanCommands" : 
+	[
+		"/Users/zhanggeng/android_tools/android_studio/android-sdk-macosx/cmake/3.6.3155560/bin/cmake --build /Users/zhanggeng/CVCheck/app/.externalNativeBuild/cmake/universalRelease/x86 --target clean"
+	],
+	"libraries" : 
+	{
+		"native-lib-Release-x86" : 
+		{
+			"abi" : "x86",
+			"artifactName" : "native-lib",
+			"buildCommand" : "/Users/zhanggeng/android_tools/android_studio/android-sdk-macosx/cmake/3.6.3155560/bin/cmake --build /Users/zhanggeng/CVCheck/app/.externalNativeBuild/cmake/universalRelease/x86 --target native-lib",
+			"buildType" : "release",
+			"output" : "/Users/zhanggeng/CVCheck/app/build/intermediates/cmake/universal/release/obj/x86/libnative-lib.so",
+			"toolchain" : "1272465567748762461"
+		}
+	},
+	"toolchains" : 
+	{
+		"1272465567748762461" : 
+		{
+			"cCompilerExecutable" : "/Users/zhanggeng/android_tools/android_studio/android-sdk-macosx/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang",
+			"cppCompilerExecutable" : "/Users/zhanggeng/android_tools/android_studio/android-sdk-macosx/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++"
+		}
+	}
+}

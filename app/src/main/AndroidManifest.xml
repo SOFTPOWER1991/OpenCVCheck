@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="demo.rayootech.com.cvcheck">
+
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".SimilarityActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".CameraPreviewActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".FaceDetectionActivityByOpenCv"
+            android:screenOrientation="landscape"></activity>
+        <activity
+            android:name=".FaceDetectionActivityByAndroidAPI"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name=".FdActivity"></activity>
+        <activity android:name=".FdActivityPic"></activity>
+        <activity android:name=".FdStaticPicActivity"></activity>
+        <activity android:name=".FdSimilarityCheckActivity"></activity>
+    </application>
+
+</manifest>

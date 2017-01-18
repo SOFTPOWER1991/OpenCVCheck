@@ -1,0 +1,14 @@
+Executable : /Users/zhanggeng/android_tools/android_studio/android-sdk-macosx/cmake/3.6.3155560/bin/cmake
+arguments : 
+-H/Users/zhanggeng/CVCheck/app/src/main/cpp
+-B/Users/zhanggeng/CVCheck/app/.externalNativeBuild/cmake/release/mips
+-GAndroid Gradle - Ninja
+-DANDROID_ABI=mips
+-DANDROID_NDK=/Users/zhanggeng/android_tools/android_studio/android-sdk-macosx/ndk-bundle
+-DCMAKE_LIBRARY_OUTPUT_DIRECTORY=/Users/zhanggeng/CVCheck/app/build/intermediates/cmake/release/obj/mips
+-DCMAKE_BUILD_TYPE=Release
+-DCMAKE_MAKE_PROGRAM=/Users/zhanggeng/android_tools/android_studio/android-sdk-macosx/cmake/3.6.3155560/bin/ninja
+-DCMAKE_TOOLCHAIN_FILE=/Users/zhanggeng/android_tools/android_studio/android-sdk-macosx/ndk-bundle/build/cmake/android.toolchain.cmake
+-DANDROID_NATIVE_API_LEVEL=14
+jvmArgs : 
+

@@ -1,0 +1,28 @@
+
+{
+	"buildFiles" : [ "/Users/zhanggeng/CVCheck/app/src/main/cpp/CMakeLists.txt" ],
+	"cleanCommands" : 
+	[
+		"/Users/zhanggeng/android_tools/android_studio/android-sdk-macosx/cmake/3.6.3155560/bin/cmake --build /Users/zhanggeng/CVCheck/app/.externalNativeBuild/cmake/armRelease/armeabi --target clean"
+	],
+	"libraries" : 
+	{
+		"native-lib-Release-armeabi" : 
+		{
+			"abi" : "armeabi",
+			"artifactName" : "native-lib",
+			"buildCommand" : "/Users/zhanggeng/android_tools/android_studio/android-sdk-macosx/cmake/3.6.3155560/bin/cmake --build /Users/zhanggeng/CVCheck/app/.externalNativeBuild/cmake/armRelease/armeabi --target native-lib",
+			"buildType" : "release",
+			"output" : "/Users/zhanggeng/CVCheck/app/build/intermediates/cmake/arm/release/obj/armeabi/libnative-lib.so",
+			"toolchain" : "1272465567748762461"
+		}
+	},
+	"toolchains" : 
+	{
+		"1272465567748762461" : 
+		{
+			"cCompilerExecutable" : "/Users/zhanggeng/android_tools/android_studio/android-sdk-macosx/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang",
+			"cppCompilerExecutable" : "/Users/zhanggeng/android_tools/android_studio/android-sdk-macosx/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++"
+		}
+	}
+}
